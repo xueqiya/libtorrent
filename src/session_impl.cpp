@@ -555,6 +555,7 @@ namespace aux {
 	void session_impl::start_session()
 	{
 #ifndef TORRENT_DISABLE_LOGGING
+		session_log("test log");
 		session_log("start session");
 #endif
 
